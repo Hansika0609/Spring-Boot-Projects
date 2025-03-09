@@ -1,14 +1,13 @@
-package com.springboot.first_app;
+package net.javaguides.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootFirstAppApplication {
+public class RegistrationLoginSystemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootFirstAppApplication.class, args);
+		SpringApplication.run(RegistrationLoginSystemApplication.class, args);
 	}
-//	System.out.println("Hello, Spring Boot!");
 
 }
